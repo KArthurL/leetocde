@@ -1,3 +1,5 @@
+package 动态规划;
+
 public class 最大矩形 {
 
     public static int maximalRectangle(char[][] matrix) {

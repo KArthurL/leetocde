@@ -1,3 +1,5 @@
+package 字符串;
+
 public class 回文子串 {
 
     public static void main(String[] args) {

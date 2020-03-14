@@ -45,4 +45,5 @@ public class k个一组反转链表 {
         cur.next=pre;
         return cur;
     }
+
 }

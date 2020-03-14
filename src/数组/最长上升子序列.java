@@ -1,3 +1,5 @@
+package 数组;
+
 public class 最长上升子序列 {
 
     public int lengthOfLIS(int[] nums) {

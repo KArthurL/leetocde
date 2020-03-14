@@ -1,3 +1,5 @@
+package 字符串;
+
 import java.util.HashMap;
 import java.util.Map;
 

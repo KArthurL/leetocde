@@ -1,3 +1,5 @@
+package 数组;
+
 import java.util.*;
 
 public class 前k个高频元素 {
@@ -8,7 +10,7 @@ public class 前k个高频元素 {
         for(int n:nums){
             map.put(n,map.getOrDefault(n,0)+1);
         }
-        PriorityQueue<Integer> queue=new PriorityQueue<>((o1, o2) -> map.get(o1)-map.get(o2));
+        PriorityQueue<Integer> queue=new PriorityQueue<>(Comparator.comparingInt(map::get));
 
 
         for(int n:map.keySet()){

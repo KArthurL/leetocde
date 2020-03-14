@@ -35,8 +35,6 @@ public class 扑克牌顺子 {
                 p2--;
             }
 
-
-
         }
         return true;
 

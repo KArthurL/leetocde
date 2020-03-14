@@ -1,3 +1,5 @@
+package 数组;
+
 import java.util.HashMap;
 
 public class 和为k的子数组 {

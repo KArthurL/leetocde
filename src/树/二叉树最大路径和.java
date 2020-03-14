@@ -1,3 +1,5 @@
+package 树;
+
 public class 二叉树最大路径和 {
     int res = Integer.MIN_VALUE;
 

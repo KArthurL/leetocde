@@ -6,8 +6,8 @@ public class 栈的压入弹出序列 {
 
 
     public static void main(String[] args) {
-        int[] num1={1,2,3,4,5};
-        int[] num2={4,5,3,1,2};
+        int[] num1={1,2,3,4,5,5};
+        int[] num2={5,4,5,3,2,1};
         System.out.println(IsPopOrder(num1,num2));
     }
     public static boolean IsPopOrder(int [] pushA,int [] popA) {
@@ -19,8 +19,6 @@ public class 栈的压入弹出序列 {
             if(stack.size()==0){
                 stack.push(pushA[i]);
             }else{
-
-
                 while(stack.size()>0){
                     int x=stack.pop();
                     if(x==popA[p2]) {
@@ -30,7 +28,6 @@ public class 栈的压入弹出序列 {
                         break;
                     }
                 }
-
                 if(i<pushA.length) {
                     stack.push(pushA[i]);
                 }

@@ -1,3 +1,5 @@
+package 数组;
+
 public class 乘积最大子序列 {
 
     public int maxProduct(int[] nums) {
