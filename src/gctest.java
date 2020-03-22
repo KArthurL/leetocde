@@ -8,8 +8,9 @@ public class gctest {
     public static void main(String[] args) {
 
 
-        List<byte[]> list=new ArrayList<>();
-        list.add(new byte[3*mb]);
+        Integer integer=null;
+        int i=integer;
+        System.out.println(i);
 
     }
 }

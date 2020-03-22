@@ -20,9 +20,6 @@ public class 数组中第k个最大元素 {
 
 
     }
-
-
-
     private int help(int[] num,int left,int right,int k){
         if(left==right){
             return num[left];
