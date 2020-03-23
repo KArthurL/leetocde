@@ -1,3 +1,5 @@
+package 动态规划;
+
 public class 打家劫舍2 {
 
     public int rob(int[] nums) {

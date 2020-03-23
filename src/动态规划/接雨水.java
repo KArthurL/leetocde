@@ -1,3 +1,5 @@
+package 动态规划;
+
 public class 接雨水 {
 
     public int trap(int[] height) {
