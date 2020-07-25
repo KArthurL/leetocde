@@ -24,7 +24,6 @@ public class 二叉树中和为某一值的路径 {
         target-=x;
         temp.add(root.val);
         if(target==0&&root.left==null&&root.right==null){
-
             res.add(new ArrayList<>(temp));
         }
         help(res,temp,root.left,target);

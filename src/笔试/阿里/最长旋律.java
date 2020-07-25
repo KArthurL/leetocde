@@ -1,4 +1,4 @@
-package 阿里;
+package 笔试.阿里;
 
 import java.util.Arrays;
 import java.util.Comparator;
