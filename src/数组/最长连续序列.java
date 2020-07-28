@@ -1,15 +1,13 @@
+package 数组;
+
 import java.util.HashSet;
 import java.util.Set;
 
 public class 最长连续序列 {
-    public static void main(String[] args) {
-        int[] nums={0};
-        System.out.println(longestConsecutive(nums));
-    }
-    public static int longestConsecutive(int[] nums) {
-        if(nums.length==0){
+
+    public int longestConsecutive(int[] nums) {
+        if(nums.length==0)
             return 0;
-        }
         Set<Integer> set=new HashSet<>();
         int res=1;
         for(int num:nums){
